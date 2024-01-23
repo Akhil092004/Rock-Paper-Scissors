@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPS Game</title>
+    <link rel="icon" href="img/favicon.ico" type="iamge/x-icon">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <div class="Heading">
+        <h2>Rock Paper Scissors</h2>
+        <p>-By Akhil</p>
+    </div>
+
+    <div class="Game_icons_container">
+        <div class="icon_box" id="Rock">
+            <img src="img/Rock.png" alt="Rock-Image">
+            <p>Rock</p>
+        </div>
+        <div class="icon_box" id= "Paper">
+            <img src="img/Paper.png" alt="Paper-Image">
+            <p>Paper</p>
+        </div>
+
+        <div class="icon_box" id="Scissors">
+            <img src="img/Scissors.png" alt="Scissors-Image">
+            <p>Scissors</p>
+        </div>
+    </div>
+
+    <div class="Score_board">
+        <div class="score_card user_score">
+            <p id="User_s" class="score">0</p>
+            <p>You</p>
+        </div>
+        <div class="score_card user_score">
+            <p id="Comp_s" class="score">0</p>
+            <p>Computer</p>
+        </div>
+    </div>
+
+    <div class="Winner_text_box">
+        <p id="mssg">Make Your First  Move</p>
+    </div>
+
+    <button class="Reset_btn">
+        Reset Game
+    </button>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
